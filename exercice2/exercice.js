@@ -1,3 +1,7 @@
 $("p").click(function(){
-    $(this).method();
+    setTimeout(startCal, 5000)
 });
+
+function startCal() {
+    $('p').hide();
+}
